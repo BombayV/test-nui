@@ -104,7 +104,6 @@ onUnmounted(() => window.removeEventListener('message', messageHandler))
     <span v-for="event in events.active">
       {{ event }}
     </span>
-    Hola
   </div>
   <transition name="slide-up">
 		<div v-if="activePanel" class="absolute w-[25em] bg-[#1a1a1bf2] rounded-xl shadow-xl flex flex-col items-center justify-start">
